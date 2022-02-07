@@ -1,0 +1,20 @@
+﻿Feature: Add Language
+
+@mytag
+ Scenario: Add Language sucessfully
+		Given seller enter language as "English" 
+		And   select level as "Basic"
+		When  clicks on Add action button 
+		Then  Language should be added to your profile. The alert message, "English has been added to your languages" will be displayed on top right of the application.
+
+@mytag
+ Scenario: Update Language sucessfully
+		Given seller updates language as "French" 
+		And   updates level as "Fluent"
+		When  clicks on Update button 
+		Then  Language should be updated. The alert message, "French has been updated to your languages" will be displayed on top right of the application.
+
+@mytag
+ Scenario: Delete Language sucessfully
+		When  Seller select to delete language "French" 
+		Then  Language should be deleted. The alert message, "French has been deleted from your languages" will be displayed on top right of the application.
