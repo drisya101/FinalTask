@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "2f647d97-a49d-4cbd-ba7b-80ac43f8c4f9",
+		"name": "JSON webservices,SubTask - 8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list of all Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.groupkt.com/post/c9b0ccb9/country-and-other-related-rest-webservices.htm",
+					"protocol": "http",
+					"host": [
+						"www",
+						"groupkt",
+						"com"
+					],
+					"path": [
+						"post",
+						"c9b0ccb9",
+						"country-and-other-related-rest-webservices.htm"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
